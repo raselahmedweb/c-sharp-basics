@@ -1,0 +1,15 @@
+C:\Users\rasel\OneDrive\Desktop\c-sharp\project-1\bin\Debug\net8.0\project-1.exe
+C:\Users\rasel\OneDrive\Desktop\c-sharp\project-1\bin\Debug\net8.0\project-1.deps.json
+C:\Users\rasel\OneDrive\Desktop\c-sharp\project-1\bin\Debug\net8.0\project-1.runtimeconfig.json
+C:\Users\rasel\OneDrive\Desktop\c-sharp\project-1\bin\Debug\net8.0\project-1.dll
+C:\Users\rasel\OneDrive\Desktop\c-sharp\project-1\bin\Debug\net8.0\project-1.pdb
+C:\Users\rasel\OneDrive\Desktop\c-sharp\project-1\obj\Debug\net8.0\project-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rasel\OneDrive\Desktop\c-sharp\project-1\obj\Debug\net8.0\project-1.AssemblyInfoInputs.cache
+C:\Users\rasel\OneDrive\Desktop\c-sharp\project-1\obj\Debug\net8.0\project-1.AssemblyInfo.cs
+C:\Users\rasel\OneDrive\Desktop\c-sharp\project-1\obj\Debug\net8.0\project-1.csproj.CoreCompileInputs.cache
+C:\Users\rasel\OneDrive\Desktop\c-sharp\project-1\obj\Debug\net8.0\project-1.sourcelink.json
+C:\Users\rasel\OneDrive\Desktop\c-sharp\project-1\obj\Debug\net8.0\project-1.dll
+C:\Users\rasel\OneDrive\Desktop\c-sharp\project-1\obj\Debug\net8.0\refint\project-1.dll
+C:\Users\rasel\OneDrive\Desktop\c-sharp\project-1\obj\Debug\net8.0\project-1.pdb
+C:\Users\rasel\OneDrive\Desktop\c-sharp\project-1\obj\Debug\net8.0\project-1.genruntimeconfig.cache
+C:\Users\rasel\OneDrive\Desktop\c-sharp\project-1\obj\Debug\net8.0\ref\project-1.dll
