@@ -1,0 +1,15 @@
+C:\Users\Coffe\Documents\learning-c-sharp\bin\Debug\net9.0\project-1.exe
+C:\Users\Coffe\Documents\learning-c-sharp\bin\Debug\net9.0\project-1.deps.json
+C:\Users\Coffe\Documents\learning-c-sharp\bin\Debug\net9.0\project-1.runtimeconfig.json
+C:\Users\Coffe\Documents\learning-c-sharp\bin\Debug\net9.0\project-1.dll
+C:\Users\Coffe\Documents\learning-c-sharp\bin\Debug\net9.0\project-1.pdb
+C:\Users\Coffe\Documents\learning-c-sharp\obj\Debug\net9.0\project-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coffe\Documents\learning-c-sharp\obj\Debug\net9.0\project-1.AssemblyInfoInputs.cache
+C:\Users\Coffe\Documents\learning-c-sharp\obj\Debug\net9.0\project-1.AssemblyInfo.cs
+C:\Users\Coffe\Documents\learning-c-sharp\obj\Debug\net9.0\project-1.csproj.CoreCompileInputs.cache
+C:\Users\Coffe\Documents\learning-c-sharp\obj\Debug\net9.0\project-1.sourcelink.json
+C:\Users\Coffe\Documents\learning-c-sharp\obj\Debug\net9.0\project-1.dll
+C:\Users\Coffe\Documents\learning-c-sharp\obj\Debug\net9.0\refint\project-1.dll
+C:\Users\Coffe\Documents\learning-c-sharp\obj\Debug\net9.0\project-1.pdb
+C:\Users\Coffe\Documents\learning-c-sharp\obj\Debug\net9.0\project-1.genruntimeconfig.cache
+C:\Users\Coffe\Documents\learning-c-sharp\obj\Debug\net9.0\ref\project-1.dll
