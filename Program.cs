@@ -566,25 +566,170 @@ using System.Runtime.InteropServices;
 // }
 
 //! now we will learn basic class and object
+// class Person {
+//     public string? name;
+//     public int age;
 
-class Person {
-    public string? name;
-    public int age;
-}
+//     public void SetValue(string n, int a){
+//         name = n;
+//         age = a;
+//     }
 
-class Progr{
-    public static void Main(string[] args)
-    {
-        // create object of Person class
-        Person p1 = new Person();
-        p1.name = "John Doe";
-        p1.age = 30;
-        Console.WriteLine($"Name: {p1.name}, Age: {p1.age}");
+//     public void InfoHelper(){
+//         Console.WriteLine($"Name: {name}, Age: {age}");
 
-        // create another object of Person class
-        Person p2 = new Person();
-        p2.name = "Jane Doe";
-        p2.age = 25;
-        Console.WriteLine($"Name: {p2.name}, Age: {p2.age}");
-    }
-}
+//     }
+// }
+
+// class Test{
+//     public static void Main(string[] args)
+//     {
+//         // create object of Person class
+//         Person p1 = new Person();
+//         p1.SetValue("Anisul Islam", 30);
+//         p1.InfoHelper();
+
+//         // create another object of Person class
+//         Person p2 = new Person();
+//         p2.SetValue("Rasel Ahmed", 22);
+//         p2.InfoHelper();
+//     }
+// }
+
+// //! now we will learn Constructor in class and object
+// class Person {
+//     public string? name;
+//     public int age;
+
+//     public Person(string n, int a){
+//         name = n;
+//         age = a;
+//     }
+
+//         public Person(){
+//         name = "Default";
+//         age = 0;
+//     }
+
+//     public void InfoHelper(){
+//         Console.WriteLine($"Name: {name}, Age: {age}");
+
+//     }
+// }
+
+// class Test{
+//     public static void Main(string[] args)
+//     {
+//         // create object of Person class
+//         Person p1 = new Person("Anisul Islam", 32);
+//         p1.InfoHelper();
+
+//         Person p2 = new Person("Rasel Ahmed", 22);     
+//         p2.InfoHelper();
+
+//         Person p3 = new Person();     
+//         p3.InfoHelper();
+//     }
+// }
+
+
+//! Value Type vs Reference Type
+
+//? Value Type
+// class Test{
+//     public static void Main(string[] args){
+//         // Value Type
+//         int a = 10;
+//         int b = a;
+//         Console.WriteLine($"Before change the value: a = {a}, b = {b}");
+//         b = 20;
+//         Console.WriteLine($"After change the value: a = {a}, b = {b}");
+//     }
+// }
+
+// //! Reference Type
+
+// class Person{
+//     public string name;
+//     public int age;
+//     public Person(string n, int a){
+//         name = n;
+//         age = a;
+//     }
+//     public void InfoHelper(){
+//         Console.WriteLine($"Name: {name}, Age: {age}");
+//     }
+// }
+
+// class Test{
+//     public static void Main(string[] args){
+//         // Reference Type
+//         Person p1 = new Person("Anisul Islam", 32);
+//         Person p2 = p1;
+//         Console.WriteLine($"Before change the reference: p1 = {p1.name}, p2 = {p2.name}");
+//         p2.name = "Rasel Ahmed";
+//         Console.WriteLine($"After change the reference: p1 = {p1.name}, p2 = {p2.name}");
+//     }
+// }
+
+// //! Setter and Getter Methods
+
+// class Person
+// {
+//     private string name;
+//     private int age;
+
+//     public string Name
+//     {
+//         get { return name; }
+//         set
+//         {
+//             if (value.Length >= 2)
+//             {
+//                 name = value;
+//             }
+//         }
+//     }
+
+//     public int Age
+//     {
+//         get { return age; }
+//         set
+//         {
+//             if (value >= 18 && value <= 60)
+//             {
+//                 age = value;
+//             }
+//         }
+//     }
+
+// }
+
+// class Test
+// {
+//     public static void Main(string[] args)
+//     {
+//         Person p = new Person();
+//         p.Name = "R";
+//         p.Age = 22;
+//         Console.WriteLine($"Name: {p.Name}, Age: {p.Age}");
+//     }
+// }
+
+// //! this and readonly keywords
+
+// class Student{
+//     public readonly string name;
+//     public Student(string name){
+//         this.name = name;
+//     }
+
+// }
+
+// class Test{
+//     public static void Main(string[] args)
+//     {
+//         Student s = new Student("Sujon");
+//         Console.WriteLine(s.name);
+//     }
+// }
