@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Runtime.InteropServices;
+using Microsoft.VisualBasic;
 
 // class Test
 // {
@@ -733,3 +734,69 @@ using System.Runtime.InteropServices;
 //         Console.WriteLine(s.name);
 //     }
 // }
+
+// public class Student{
+//     private string name;
+//     private int age;
+
+
+//     public Student(string name, int age){
+//         this.name = name;
+//         this.age = age;
+//     }
+
+//     public void Info(){
+//         Console.WriteLine($"Name: {name}, Age: {age}");
+//     }
+// }
+
+// class Test{
+//     public static void Main(string[] args)
+//     {
+//     	Student s1 = new Student("Sujon", 23);
+//         s1.Info();
+//         string? name = Console.ReadLine();
+        
+//         Console.WriteLine($"{name}");
+//     }
+// }
+
+
+//! Exception Handling
+
+class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Welcome to calculator app");
+    	
+        try
+        {
+        Console.Write("Enter num1: ");
+        int num1 = Convert.ToInt32(Console.ReadLine());
+    	Console.Write("Enter num2: ");
+        int num2 = Convert.ToInt32(Console.ReadLine());
+        int result = num1 / num2;
+        Console.WriteLine($"Result: {result}");
+        }
+        catch (DivideByZeroException)
+        {
+            Console.WriteLine("Cannot divide by zero");
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine($"Please enter a valid number"); 
+        }
+        catch(OverflowException){        
+            Console.WriteLine($"Number is too large or too small for Int32 bit");
+        }
+        catch (Exception e)
+        { 
+            Console.WriteLine($"error: {e}");  
+        }
+        finally{
+            Console.WriteLine("Goodbye!");
+        }
+        
+    }
+}
